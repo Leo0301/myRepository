@@ -1,0 +1,24 @@
+客户详情：/contacts/field
+分组下客户列表：/segments/1274/contacts    /segments/page/list
+分组  导出：/segments/contacts/export
+落地页 访问用户列表：/categories/list?
+
+
+
+type：sms.send.detail
+
+smsId：短信id
+
+mobile：
+
+
+{
+  "type": "sms.send.detail",
+  "params": {
+    smsId：短信id,
+    mobile：手机号码,
+    "sendSuccess": 发送状态，
+    "pageNo"：页码，
+     "pageSize"：页面大小
+  }
+}
